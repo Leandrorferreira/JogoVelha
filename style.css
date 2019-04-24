@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #1abc9c;
+}
+
+header{
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #placar1{   
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    padding: 0px 15px;
+    width: 100px;
+}
+
+header #placar2{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 15px;
+    border-radius: 16px;
+    width: 100px;
+}  
+
+section{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #areaJogo{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#areaJogo .linha{
+    height: 33%;
+    display: flex;
+}
+
+#areaJogo .individual{
+    height: 100%;
+    width: 33%;
+    border: 5px solid #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual#A1, .individual#A2, .individual#A3{
+    border-top: 0;  
+}
+
+.individual#A1, .individual#B1, .individual#C1{
+    border-left: 0;  
+}
+
+.individual#A3, .individual#B3, .individual#C3{
+    border-right: 0;   
+}
+
+.individual#C1, .individual#C2, .individual#C3{
+    border-bottom: 0;
+    border-top: 0;  
+}
+
+footer{   
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 16pt;
+    color: black;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 25px;
+    border-radius: 16px;
+}
+
+footer a:hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+   font-size: 16pt; 
+}
+
